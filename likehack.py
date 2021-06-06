@@ -18,7 +18,7 @@ while True:
 	else:
 		print(r+"your tool is fales")
 while True:
-    if input('g+enter tool password>>>')=='password':
+    if input(g+'enter tool password>>>')=='password':
     	print(w+'tool password true')
     	break
     else:
