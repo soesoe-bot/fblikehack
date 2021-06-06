@@ -1,23 +1,28 @@
-print            ("▇◤▔▔▔▔▔▔▔◥▇ ")
-print            ("▇▏◥▇◣┊◢▇◤▕▇ ")
-print            ("▇▏▃▆▅▎▅▆▃▕▇ ")
-print            ("▇▏╱▔▕▎▔▔╲▕▇ ")
-print            ("▇◣◣▃▅▎▅▃◢◢▇ ")
-print            ("▇▇◣◥▅▅▅◤◢▇▇ ")
-print            ("▇▇▇◣╲▇╱◢▇▇▇ ")
+b = "\033[34m"    # Blue
+g = "\033[32m"    # Green
+w = "\033[0;1m"     # White
+r = "\033[31m"    # Red
+
+print            (b+"▇◤▔▔▔▔▔▔▔◥▇ ")
+print            (b+"▇▏◥▇◣┊◢▇◤▕▇ ")
+print            (b+"▇▏▃▆▅▎▅▆▃▕▇ ")
+print            (b+"▇▏╱▔▕▎▔▔╲▕▇ ")
+print            (b+"▇◣◣▃▅▎▅▃◢◢▇ ")
+print            (b+"▇▇◣◥▅▅▅◤◢▇▇ ")
+print            (b+"▇▇▇◣╲▇╱◢▇▇▇ ")
 
 while True:
-	if input('enter tool name>>>') =='yourpassword':
-		print("your tool is true")
+	if input(g+'enter tool name>>>') =='yourpassword':
+		print(w+"your tool is true")
 		break
 	else:
-		print("your tool is fales")
+		print(r+"your tool is fales")
 while True:
-    if input('enter tool password>>>')=='password':
-    	print('tool password true')
+    if input('g+enter tool password>>>')=='password':
+    	print(w+'tool password true')
     	break
     else:
-    	print("tool password fales")
+    	print(r+"tool password fales")
 import pyfiglet
 import os
 os.system("clear")
@@ -34,7 +39,7 @@ print(cl.read,a)
 print(cl.gl,"Author By : hacker")
 print(cl.read,"hack Your fb like")
 
-mail = input("Enter Your Facebook User Name :")
+mail = input("Enter Your Facebook id email :")
 apass = input("Enter Your account password :")
 
 import time
